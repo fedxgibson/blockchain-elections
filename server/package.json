@@ -1,0 +1,31 @@
+{
+  "name": "blockchain-voting-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for blockchain voting system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "voting",
+    "solidity",
+    "hardhat"
+  ],
+  "dependencies": {
+    "web3": "^1.8.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "typechain": "^8.1.1"
+  }
+}
